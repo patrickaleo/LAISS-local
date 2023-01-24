@@ -1,0 +1,9 @@
+
+ Color Category Breakdown (%) 
+ Total: 509 (100.0%) 
+ Yellow: 14 (2.8%) 
+ Blue: 36 (7.1%) 
+ Orange: 11 (2.2%) 
+ Green: 213 (41.8%) 
+ Pink: 181 (35.6%) 
+ Red: 54 (10.6%)
