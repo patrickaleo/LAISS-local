@@ -713,36 +713,36 @@ Our light curve features are extracted with the \texttt{lc\_feature\_extractor} 
 
 \begin{itemize}
     \item \texttt{feature\_amplitude\_magn}: Half amplitude of magnitude \citep{Malanchev2021}.
-    \item \texttt{feature\_anderson\_darling\_normal\_magn}: Unbiased Anderson–Darling normality test statistic \citep{Malanchev2021}.
+    \item \texttt{feature\_anderson\_darling\_normal\_magn}: Unbiased Anderson–Darling normality test statistic for magnitude \citep{Malanchev2021}.
     \item \texttt{feature\_beyond\_1\_std\_magn}: Fraction of observations beyond $n=1 \sigma_{m}$ from the mean magnitude $\langle m \rangle$ \citep{D'Isanto2016}.
     \item \texttt{feature\_beyond\_2\_std\_magn}: Fraction of observations beyond $n=2 \sigma_{m}$ from the mean magnitude $\langle m \rangle$ \citep{D'Isanto2016}.
     \item \texttt{feature\_cusum\_magn}: A range of cumulative sums dependent on the number of observations, mean magnitude, and magnitude standard deviation \citep{Kim2014}.
-    \item \texttt{feature\_inter\_percentile\_range\_2\_magn}: Inter-percentile range for $p=0.02$, where $p$ is the pth quantile of the magnitude distribution.
-    \item \texttt{feature\_inter\_percentile\_range\_10\_magn}: Inter-percentile range for $p=0.10$, where $p$ is the pth quantile of the magnitude distribution. A special case of the interpercetile range known as the interdecile range.
-    \item \texttt{feature\_inter\_percentile\_range\_25\_magn}: Inter-percentile range for $p=0.25$, where $p$ is the pth quantile of the magnitude distribution. A special case of the interpercetile range known as the interquartile range.
-    \item \texttt{feature\_kurtosis\_magn}: abc
-    \item \texttt{feature\_linear\_fit\_slope\_magn}: abc
-    \item \texttt{feature\_linear\_fit\_slope\_sigma\_magn}: abc
-    \item \texttt{feature\_magnitude\_percentage\_ratio\_40\_5\_magn}: abc
-    \item \texttt{feature\_magnitude\_percentage\_ratio\_20\_5\_magn}: abc
-    \item \texttt{feature\_mean\_magn}: abc
-    \item \texttt{feature\_median\_absolute\_deviation\_magn}: abc
-    \item \texttt{feature\_percent\_amplitude\_magn}: abc
-    \item \texttt{feature\_median\_buffer\_range\_percentage\_10\_magn}: abc
-    \item \texttt{feature\_median\_buffer\_range\_percentage\_20\_magn}: abc
-    \item \texttt{feature\_percent\_difference\_magnitude\_percentile\_5\_magn}: abc
-    \item \texttt{feature\_percent\_difference\_magnitude\_percentile\_10\_magn}: abc
-    \item \texttt{feature\_skew\_magn}: abc
-    \item \texttt{feature\_standard\_deviation\_magn}: abc
-    \item \texttt{feature\_stetson\_k\_magn}: abc
-    \item \texttt{feature\_weighted\_mean\_magn}: abc
-    \item \texttt{feature\_anderson\_darling\_normal\_flux}: abc
-    \item \texttt{feature\_cusum\_flux}: abc
-    \item \texttt{feature\_excess\_variance\_flux}: abc
-    \item \texttt{feature\_kurtosis\_flux}: abc
-    \item \texttt{feature\_mean\_variance\_flux}: abc
-    \item \texttt{feature\_skew\_flux}: abc
-    \item \texttt{feature\_stetson\_k\_flux}: abc
+    \item \texttt{feature\_inter\_percentile\_range\_2\_magn}: Inter-percentile range for $p=0.02$, where $p$ is the pth quantile of the magnitude distribution \citep{Malanchev2021}.
+    \item \texttt{feature\_inter\_percentile\_range\_10\_magn}: Inter-percentile range for $p=0.10$, where $p$ is the pth quantile of the magnitude distribution. A special case of the interpercetile range known as the interdecile range \citep{Malanchev2021}.
+    \item \texttt{feature\_inter\_percentile\_range\_25\_magn}: Inter-percentile range for $p=0.25$, where $p$ is the pth quantile of the magnitude distribution. A special case of the interpercetile range known as the interquartile range\citep{Malanchev2021}.
+    \item \texttt{feature\_kurtosis\_magn}: Excess kurtosis of magnitude \citep{Malanchev2021}.
+    \item \texttt{feature\_linear\_fit\_slope\_magn}: The slope of the light curve in the least squares fit of the linear stochastic model with Gaussian noise described by observation errors \{$\delta_{i}$\} \citep{Malanchev2021}.
+    \item \texttt{feature\_linear\_fit\_slope\_sigma\_magn}: The error of the slope of the light curve in the least squares fit of the linear stochastic model with Gaussian noise described by observation errors \{$\delta_{i}$\} \citep{Malanchev2021}.
+    \item \texttt{feature\_magnitude\_percentage\_ratio\_40\_5\_magn}: The magnitude 40 to 5 ratio, written in terms of the magnitude distribution quantile function $Q$. \citep{D'Isanto2016}.
+    \item \texttt{feature\_magnitude\_percentage\_ratio\_20\_5\_magn}: The magnitude 20 to 5 ratio, written in terms of the magnitude distribution quantile function $Q$. \citep{D'Isanto2016}.
+    \item \texttt{feature\_mean\_magn}: The non-weighted mean magnitude.
+    \item \texttt{feature\_median\_absolute\_deviation\_magn}: The median of the absolute value of the difference between magnitude and its median \citep{D'Isanto2016}.
+    \item \texttt{feature\_percent\_amplitude\_magn}: The maximum deviation of magnitude from its median \citep{D'Isanto2016}.
+    \item \texttt{feature\_median\_buffer\_range\_percentage\_10\_magn}: The fraction of observations inside Median($m$) $\pm 10 \times$ (max($m$)-min($m$))/2 interval \citep{D'Isanto2016}.
+    \item \texttt{feature\_median\_buffer\_range\_percentage\_20\_magn}: The fraction of observations inside Median($m$) $\pm 20 \times$ (max($m$)-min($m$))/2 interval \citep{D'Isanto2016}.
+    \item \texttt{feature\_percent\_difference\_magnitude\_percentile\_5\_magn}: Ratio of $p$=5th inter-percentile range to the median \citep{Malanchev2021}.
+    \item \texttt{feature\_percent\_difference\_magnitude\_percentile\_10\_magn}: Ratio of $p$=10th inter-percentile range to the median \citep{Malanchev2021}.
+    \item \texttt{feature\_skew\_magn}: Skewness of magnitude, $G_{1}$ \citep{Malanchev2021}.
+    \item \texttt{feature\_standard\_deviation\_magn}: 	Standard deviation of magnitude, $\sigma_{m}$ \citep{Malanchev2021}.
+    \item \texttt{feature\_stetson\_k\_magn}: Stetson $K$ coefficient described light curve shape of magnitude \citep{Stetson1996}.
+    \item \texttt{feature\_weighted\_mean\_magn}: Weighted mean magnitude \citep{Malanchev2021}.
+    \item \texttt{feature\_anderson\_darling\_normal\_flux}: Unbiased Anderson–Darling normality test statistic for flux \citep{Malanchev2021}.
+    \item \texttt{feature\_cusum\_flux}: A range of cumulative sums dependent on the number of observations, mean flux, and flux standard deviation \citep{Kim2014}.
+    \item \texttt{feature\_excess\_variance\_flux}: Measure of the flux variability amplitude \citep{Sanchez2017}.
+    \item \texttt{feature\_kurtosis\_flux}: Excess kurtosis of flux \citep{Malanchev2021}.
+    \item \texttt{feature\_mean\_variance\_flux}: Standard deviation of flux to mean flux ratio \citep{Malanchev2021}.
+    \item \texttt{feature\_skew\_flux}: Skewness of flux \citep{Malanchev2021}.
+    \item \texttt{feature\_stetson\_k\_flux}: Stetson $K$ coefficient described light curve shape of flux \citep{Stetson1996}.
 \end{itemize}
 
 
