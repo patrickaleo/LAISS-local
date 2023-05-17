@@ -1,0 +1,14 @@
+# --------------------
+# Rare class to find rare class analog (No_TNS)
+# Likely AGN (or not transient) w/ No_TNS are NOT listed. Neither is Yes_TNS
+# Maybe don't list the Refs with no newly reported analogs (to make table smaller...)?
+
+# SLSN-II 
+Ref: ZTF20acnznms, tns_cls=SLSN-II, spec_z=0.204
+Ref: ZTF19aaadwfi, tns_cls=SLSN-II, spec_z=0.222
+Ref: ZTF21acqvuyb, tns_cls=SLSN-II, spec_z=0.229
+ANN=1	https://alerce.online/object/ZTF20acllkua		No_TNS		None		z=-99.0	Ia?	new IAU=abc!
+ANN=2	https://alerce.online/object/ZTF18abnysyy		No_TNS		None		z=-99.0	Ia?	new IAU=abc!
+
+# SN II
+Ref: ZTF21abcixor, tns_cls=SN II, spec_z=0.033

@@ -1,0 +1,86 @@
+# --------------------
+# Rare class to find rare class analog (Yes_TNS) - no Ia (otherwise table is gonna be too big...)
+# Yes_TNS already with spec class are NOT listed. Neither is No_TNS. Neither is likely Ia
+
+# SLSN-II 
+Ref: ZTF20acnznms, tns_cls=SLSN-II, spec_z=0.204
+ANN=1	https://alerce.online/object/ZTF21abhzsho		Yes_TNS		None		z=-99.0	SLSN?->FLEET
+ANN=2	https://alerce.online/object/ZTF21aauaemd		Yes_TNS		None		z=-99.0	II? SLSN?->FLEET
+Ref: ZTF19aaadwfi, tns_cls=SLSN-II, spec_z=0.222
+ANN=8	https://alerce.online/object/ZTF18aarnbcc		Yes_TNS		None		z=-99.0	Ia/AGN flare? Interesting?
+Ref: ZTF21acqvuyb, tns_cls=SLSN-II, spec_z=0.229
+ANN=3	https://alerce.online/object/ZTF20acxtayx		Yes_TNS		None		z=-99.0	SLSN?->FLEET
+
+# SN II
+Ref: ZTF21abcixor, tns_cls=SN II, spec_z=0.033
+ANN=2	https://alerce.online/object/ZTF21achypsm		Yes_TNS		None		z=-99.0	II?
+ANN=6	https://alerce.online/object/ZTF20aczjfwv		Yes_TNS		None		z=-99.0	II?
+Ref: ZTF21acivpbd, tns_cls=SN II, spec_z=0.047
+ANN=1	https://alerce.online/object/ZTF20acqvuwu		Yes_TNS		None		z=-99.0	II?
+ANN=3	https://alerce.online/object/ZTF21abdrzvg		Yes_TNS		None		z=-99.0	II?
+ANN=5	https://alerce.online/object/ZTF21abcfnqc		Yes_TNS		None		z=-99.0	II?
+ANN=6	https://alerce.online/object/ZTF21aalepvi		Yes_TNS		None		z=-99.0	Ibc?
+ANN=8	https://alerce.online/object/ZTF21abiyvdf		Yes_TNS		None		z=-99.0	II
+Ref: ZTF21achlshg, tns_cls=SN II, spec_z=0.03
+ANN=6	https://alerce.online/object/ZTF19abrcwun		Yes_TNS		None		z=-99.0	IIb?
+Ref: ZTF20achmmex, tns_cls=SN II, spec_z=0.0321590006
+ANN=3	https://alerce.online/object/ZTF21aakizlz		Yes_TNS		None		z=-99.0	II/IIP
+ANN=4	https://alerce.online/object/ZTF20acwqmda		Yes_TNS		None		z=-99.0	II/IIP
+ANN=8	https://alerce.online/object/ZTF18acbzqoc		Yes_TNS		None		z=-99.0	II/IIP
+Ref: ZTF21abtephz, tns_cls=SN II, spec_z=0.0228049997
+ANN=1	https://alerce.online/object/ZTF18acnbbvk		Yes_TNS		None		z=-99.0	II
+ANN=6	https://alerce.online/object/ZTF21acjiwqc		Yes_TNS		None		z=-99.0	Ibc
+Ref: ZTF20acbiwri, tns_cls=SN II, spec_z=0.03
+ANN=5	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II
+Ref: ZTF21abfxjkq, tns_cls=SN II, spec_z=0.019937
+Ref: ZTF21abzbwfo, tns_cls=SN II, spec_z=0.22 (IIn???)
+ANN=6	https://alerce.online/object/ZTF20acaazkt		Yes_TNS		None		z=-99.0	my TDE cand (FLEET:65%)
+Ref: ZTF21aaizyqc, tns_cls=SN II, spec_z=0.070265
+ANN=7	https://alerce.online/object/ZTF20acphjgz		Yes_TNS		None		z=-99.0	II
+Ref: ZTF21aabygea, tns_cls=SN II, spec_z=0.019
+Ref: ZTF21aamwqim, tns_cls=SN II, spec_z=0.025878
+Ref: ZTF21acnfoqn, tns_cls=SN II, spec_z=0.028
+Ref: ZTF21aajvukh, tns_cls=SN II, spec_z=0.055
+Ref: ZTF21abcmtev, tns_cls=SN II, spec_z=0.02884
+Ref: ZTF20abyzomt, tns_cls=SN II, spec_z=0.022125
+ANN=6	https://alerce.online/object/ZTF21acecpxo		Yes_TNS		None		z=-99.0	Ibc?/Ia?
+Ref: ZTF20abywydb, tns_cls=SN II, spec_z=0.04
+Ref: ZTF21aakigqr, tns_cls=SN II, spec_z=0.066866
+ANN=1	https://alerce.online/object/ZTF21aaofwxe		Yes_TNS		None		z=-99.0	II
+ANN=3	https://alerce.online/object/ZTF21aaaybkj		Yes_TNS		None		z=-99.0	II
+ANN=5	https://alerce.online/object/ZTF21aayfbwv		Yes_TNS		None		z=-99.0	IIn?
+Ref: ZTF18abufaej, tns_cls=SN II, spec_z=0.062
+ANN=1	https://alerce.online/object/ZTF21aalxwxg		Yes_TNS		None		z=-99.0	II
+ANN=2	https://alerce.online/object/ZTF21abdboqy		Yes_TNS		None		z=-99.0	Ia?/IIn?
+ANN=4	https://alerce.online/object/ZTF21abdtiop		Yes_TNS		None		z=-99.0	Ia?/IIn?
+ANN=5	https://alerce.online/object/ZTF21abfyqtx		Yes_TNS		None		z=-99.0	II
+Ref: ZTF21aarasvn, tns_cls=SN II, spec_z=0.017
+Ref: ZTF21aalxurx, tns_cls=SN II, spec_z=0.027
+ANN=6	https://alerce.online/object/ZTF21aabyoxv		Yes_TNS		None		z=-99.0	IIP
+ANN=7	https://alerce.online/object/ZTF21aaphjns		Yes_TNS		None		z=-99.0	Ibc?/Ia?
+Ref: ZTF21aadacxv, tns_cls=SN II, spec_z=0.051
+ANN=3	https://alerce.online/object/ZTF20aczjfwv		Yes_TNS		None		z=-99.0	IIP
+ANN=4	https://alerce.online/object/ZTF21aaofwxe		Yes_TNS		None		z=-99.0	II
+ANN=7	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
