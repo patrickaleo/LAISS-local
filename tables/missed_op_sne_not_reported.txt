@@ -4,11 +4,16 @@
 # Maybe don't list the Refs with no newly reported analogs (to make table smaller...)?
 
 # SLSN-II 
-Ref: ZTF20acnznms, tns_cls=SLSN-II, spec_z=0.204
-Ref: ZTF19aaadwfi, tns_cls=SLSN-II, spec_z=0.222
 Ref: ZTF21acqvuyb, tns_cls=SLSN-II, spec_z=0.229
 ANN=1	https://alerce.online/object/ZTF20acllkua		No_TNS		None		z=-99.0	Ia?	new IAU=abc!
 ANN=2	https://alerce.online/object/ZTF18abnysyy		No_TNS		None		z=-99.0	Ia?	new IAU=abc!
 
 # SN II
-Ref: ZTF21abcixor, tns_cls=SN II, spec_z=0.033
+Ref: ZTF21aaaadvr, tns_cls=SN II, spec_z=0.0166
+ANN=5	https://alerce.online/object/ZTF18abhttmr		No_TNS		None		z=-99.0	SN at start of survey	new IAU=abc!
+Ref: ZTF18acploez, tns_cls=SN II, spec_z=0.04
+ANN=8	https://alerce.online/object/ZTF18ablqjws		No_TNS		None		z=-99.0	II/IIn?	new IAU=abc!
+
+# SN IIb
+Ref: ZTF21abotose, tns_cls=SN IIb, spec_z=0.0412
+ANN=2	https://alerce.online/object/ZTF19aafmytc		Yes_TNS		None		z=-99.0	2 nuclear transients, only 1 reported
