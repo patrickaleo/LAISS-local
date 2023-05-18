@@ -5,12 +5,12 @@
 
 # SLSN-II 
 Ref: ZTF20acnznms, tns_cls=SLSN-II, spec_z=0.204
-ANN=1	https://alerce.online/object/ZTF21abhzsho		Yes_TNS		None		z=-99.0	SLSN/IIn?->FLEET^^
-ANN=2	https://alerce.online/object/ZTF21aauaemd		Yes_TNS		None		z=-99.0	II? SLSN?->FLEET
+ANN=1	https://alerce.online/object/ZTF21abhzsho		Yes_TNS		None		z=-99.0	SLSN/IIn?->FLEET^^^
+ANN=2	https://alerce.online/object/ZTF21aauaemd		Yes_TNS		None		z=-99.0	II? SLSN?->FLEET^^
 Ref: ZTF19aaadwfi, tns_cls=SLSN-II, spec_z=0.222
 ANN=8	https://alerce.online/object/ZTF18aarnbcc		Yes_TNS		None		z=-99.0	Ia/AGN flare? Interesting?
 Ref: ZTF21acqvuyb, tns_cls=SLSN-II, spec_z=0.229
-ANN=3	https://alerce.online/object/ZTF20acxtayx		Yes_TNS		None		z=-99.0	SLSN?->FLEET
+ANN=3	https://alerce.online/object/ZTF20acxtayx		Yes_TNS		None		z=-99.0	SLSN?/IIn?->FLEET^^
 
 # SN II
 Ref: ZTF21abcixor, tns_cls=SN II, spec_z=0.033
@@ -32,7 +32,7 @@ Ref: ZTF21abtephz, tns_cls=SN II, spec_z=0.0228049997
 ANN=1	https://alerce.online/object/ZTF18acnbbvk		Yes_TNS		None		z=-99.0	II
 ANN=6	https://alerce.online/object/ZTF21acjiwqc		Yes_TNS		None		z=-99.0	Ibc
 Ref: ZTF20acbiwri, tns_cls=SN II, spec_z=0.03
-ANN=5	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^
+ANN=5	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^^
 Ref: ZTF21abfxjkq, tns_cls=SN II, spec_z=0.019937
 Ref: ZTF21abzbwfo, tns_cls=SN II, spec_z=0.22 (IIn???)
 ANN=6	https://alerce.online/object/ZTF20acaazkt		Yes_TNS		None		z=-99.0	my TDE cand (FLEET:65%)^^
@@ -49,7 +49,7 @@ Ref: ZTF20abywydb, tns_cls=SN II, spec_z=0.04
 Ref: ZTF21aakigqr, tns_cls=SN II, spec_z=0.066866
 ANN=1	https://alerce.online/object/ZTF21aaofwxe		Yes_TNS		None		z=-99.0	II
 ANN=3	https://alerce.online/object/ZTF21aaaybkj		Yes_TNS		None		z=-99.0	II
-ANN=5	https://alerce.online/object/ZTF21aayfbwv		Yes_TNS		None		z=-99.0	IIn?
+ANN=5	https://alerce.online/object/ZTF21aayfbwv		Yes_TNS		None		z=-99.0	IIn?^^^
 Ref: ZTF18abufaej, tns_cls=SN II, spec_z=0.062
 ANN=1	https://alerce.online/object/ZTF21aalxwxg		Yes_TNS		None		z=-99.0	II
 ANN=2	https://alerce.online/object/ZTF21abdboqy		Yes_TNS		None		z=-99.0	Ia?/IIn?
@@ -62,7 +62,7 @@ ANN=7	https://alerce.online/object/ZTF21aaphjns		Yes_TNS		None		z=-99.0	Ibc?/Ia?
 Ref: ZTF21aadacxv, tns_cls=SN II, spec_z=0.051
 ANN=3	https://alerce.online/object/ZTF20aczjfwv		Yes_TNS		None		z=-99.0	IIP
 ANN=4	https://alerce.online/object/ZTF21aaofwxe		Yes_TNS		None		z=-99.0	II
-ANN=7	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^
+ANN=7	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^^
 Ref: ZTF20acfkyll, tns_cls=SN II, spec_z=0.020721
 Ref: ZTF21aadkhte, tns_cls=SN II, spec_z=0.046
 Ref: ZTF21abidxwo, tns_cls=SN II, spec_z=0.03706
@@ -78,7 +78,7 @@ ANN=3	https://alerce.online/object/ZTF18acrhbms		Yes_TNS		None		z=-99.0	II/IIn
 ANN=4	https://alerce.online/object/ZTF21aaryfvu		Yes_TNS		None		z=-99.0	Ia/Ibc?
 ANN=5	https://alerce.online/object/ZTF21aahnpyt		Yes_TNS		None		z=-99.0	II/Ibc?^^^
 ANN=6	https://alerce.online/object/ZTF20aclgcrm		Yes_TNS		None		z=-99.0	IIP
-ANN=7	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^
+ANN=7	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^^
 ANN=8	https://alerce.online/object/ZTF20acyvzje		Yes_TNS		None		z=-99.0	II/Ibc?
 Ref: ZTF20acvjagm, tns_cls=SN II, spec_z=0.014
 Ref: ZTF20acuhgar, tns_cls=SN II, spec_z=0.053
@@ -89,7 +89,7 @@ Ref: ZTF22aaahhbo, tns_cls=SN II, spec_z=0.045
 ANN=6	https://alerce.online/object/ZTF21abvawaj		Yes_TNS		None		z=-99.0	II/Ibc
 ANN=7	https://alerce.online/object/ZTF21acetucu		Yes_TNS		None		z=-99.0	II/Ibc
 Ref: ZTF21abviabc, tns_cls=SN II, spec_z=0.053467
-ANN=7	https://alerce.online/object/ZTF21abhzsho		Yes_TNS		None		z=-99.0	SLSN/IIn?->FLEET^^
+ANN=7	https://alerce.online/object/ZTF21abhzsho		Yes_TNS		None		z=-99.0	SLSN/IIn?->FLEET^^^
 Ref: ZTF20acxtdcm, tns_cls=SN II, spec_z=0.045
 ANN=4	https://alerce.online/object/ZTF20ackrqin		Yes_TNS		None		z=-99.0	IIP
 ANN=6	https://alerce.online/object/ZTF21abwdykw		Yes_TNS		None		z=-99.0	II
@@ -97,7 +97,7 @@ ANN=8	https://alerce.online/object/ZTF20acqvfjt		Yes_TNS		None		z=-99.0	IIP (int
 Ref: ZTF20aciuciv, tns_cls=SN II, spec_z=0.097
 ANN=6	https://alerce.online/object/ZTF21aarztzh		Yes_TNS		None		z=-99.0	II/IIP^^^
 ANN=7	https://alerce.online/object/ZTF21aahnpyt		Yes_TNS		None		z=-99.0	II/Ibc?^^^
-ANN=8	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^
+ANN=8	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^^
 Ref: ZTF19aaeuhgo, tns_cls=SN II, spec_z=0.0678
 ANN=1	https://alerce.online/object/ZTF20acwfcvr		Yes_TNS		None		z=-99.0	tail of SLSN/IIn?/II?->FLEET
 ANN=3	https://alerce.online/object/ZTF20abxvcrk		Yes_TNS		None		z=-99.0	II
@@ -110,23 +110,23 @@ ANN=7	https://alerce.online/object/ZTF21abbgxbq		Yes_TNS		None		z=-99.0	Ibc?
 Ref: ZTF21aazhegf, tns_cls=SN II, spec_z=0.033
 Ref: ZTF21aavrvuj, tns_cls=SN II, spec_z=0.064
 ANN=3	https://alerce.online/object/ZTF18aawpuqx		Yes_TNS		None		z=-99.0	II^^
-ANN=6	https://alerce.online/object/ZTF21aakiufw		Yes_TNS		None		z=-99.0	II/IIP
+ANN=6	https://alerce.online/object/ZTF21aakiufw		Yes_TNS		None		z=-99.0	II/IIP^^
 ANN=7	https://alerce.online/object/ZTF21aarztzh		Yes_TNS		None		z=-99.0	II/IIP^^^
 ANN=8	https://alerce.online/object/ZTF21aalkknv		Yes_TNS		None		z=-99.0	Ibc/Ia?^^
 Ref: ZTF21aarjehy, tns_cls=SN II, spec_z=0.04
 ANN=1	https://alerce.online/object/ZTF21aanjvng		Yes_TNS		None		z=-99.0	IIP/II
 ANN=2	https://alerce.online/object/ZTF21aaaxiaz		Yes_TNS		None		z=-99.0	IIP/II
-ANN=3	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^
-ANN=4	https://alerce.online/object/ZTF20acyrlyj		Yes_TNS		None		z=-99.0	IIP/II
+ANN=3	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^^
+ANN=4	https://alerce.online/object/ZTF20acyrlyj		Yes_TNS		None		z=-99.0	IIP/II^^
 ANN=5	https://alerce.online/object/ZTF21aascaeg		Yes_TNS		None		z=-99.0	IIP/II
-ANN=6	https://alerce.online/object/ZTF21aayfbwv		Yes_TNS		None		z=-99.0	IIn?/II?
+ANN=6	https://alerce.online/object/ZTF21aayfbwv		Yes_TNS		None		z=-99.0	IIn?^^^
 ANN=7	https://alerce.online/object/ZTF20acozzem		Yes_TNS		None		z=-99.0	II
 Ref: ZTF21abyahbi, tns_cls=SN II, spec_z=0.076684
 ef: ZTF21aaigdly, tns_cls=SN II, spec_z=0.03969
 ANN=2	https://alerce.online/object/ZTF21aaxyios		Yes_TNS		None		z=-99.0	II/Ia-CSM?^^^
 ANN=8	https://alerce.online/object/ZTF21aalepvi		Yes_TNS		None		z=-99.0	II/Ibc/Ia?^^
 Ref: ZTF21aafkktu, tns_cls=SN II, spec_z=0.031
-ANN=5	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^
+ANN=5	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^^
 Ref: ZTF21aaqugxm, tns_cls=SN II, spec_z=0.018822
 ANN=2	https://alerce.online/object/ZTF20abqgrht		Yes_TNS		None		z=-99.0	IIP^^
 ANN=6	https://alerce.online/object/ZTF21abiyvdf		Yes_TNS		None		z=-99.0	II^^^
@@ -164,7 +164,7 @@ ANN=1	https://alerce.online/object/ZTF21aakmxhf		Yes_TNS		None		z=-99.0	IIP
 ANN=2	https://alerce.online/object/ZTF20abzqgmm		Yes_TNS		None		z=-99.0	IIP
 ANN=7	https://alerce.online/object/ZTF21aaanjxm		Yes_TNS		None		z=-99.0	Ibc/II
 Ref: ZTF21aaxtzzj, tns_cls=SN II, spec_z=0.028551
-ANN=3	https://alerce.online/object/ZTF20abeocko		Yes_TNS		None		z=-99.0	II
+ANN=3	https://alerce.online/object/ZTF20abeocko		Yes_TNS		None		z=-99.0	II^^
 Ref: ZTF18acploez, tns_cls=SN II, spec_z=0.04
 ANN=3	https://alerce.online/object/ZTF21aaxybac		Yes_TNS		None		z=-99.0	II
 ANN=4	https://alerce.online/object/ZTF21aarnlbs		Yes_TNS		None		z=-99.0	II
@@ -177,7 +177,7 @@ Ref: ZTF21aanzcuj, tns_cls=SN II, spec_z=0.024
 ANN=4	https://alerce.online/object/ZTF18acaozwo		Yes_TNS		None		z=-99.0	IIP
 ANN=5	https://alerce.online/object/ZTF21aabyoxv		Yes_TNS		None		z=-99.0	IIP^^^
 ANN=6	https://alerce.online/object/ZTF20abmdcfd		Yes_TNS		None		z=-99.0	IIP
-ANN=8	https://alerce.online/object/ZTF21aatuuiz		Yes_TNS		None		z=-99.0	Ibc
+ANN=8	https://alerce.online/object/ZTF21aatuuiz		Yes_TNS		None		z=-99.0	Ibc^^
 Ref: ZTF21abfiuqf, tns_cls=SN II, spec_z=0.023646
 ANN=3	https://alerce.online/object/ZTF21aaostqr		Yes_TNS		None		z=-99.0	Ibc?
 ANN=5	https://alerce.online/object/ZTF21aaxyios		Yes_TNS		None		z=-99.0	II/Ia-CSM?^^^
@@ -209,11 +209,62 @@ ANN=5	https://alerce.online/object/ZTF21abpiosb		Yes_TNS		None		z=-99.0	II
 # SN IIb
 Ref: ZTF21abotose, tns_cls=SN IIb, spec_z=0.0412
 Ref: ZTF21aaabwfu, tns_cls=SN IIb, spec_z=0.010929
+ANN=8	https://alerce.online/object/ZTF20abjwdnj		Yes_TNS		None		z=-99.0	II/IIP, blue (or tail end of Ia)
+Ref: ZTF20acusecr, tns_cls=SN IIb, spec_z=0.030884
+Ref: ZTF21acmrdga, tns_cls=SN IIb, spec_z=0.034
+Ref: ZTF20acgiglu, tns_cls=SN IIb, spec_z=0.026728
+Ref: ZTF21aarasky, tns_cls=SN IIb, spec_z=0.021698
+ANN=2	https://alerce.online/object/ZTF20acoalxr		Yes_TNS		None		z=-99.0	Ibc
 
+# SN IIn
+Ref: ZTF21abgkfzh, tns_cls=SN IIn, spec_z=0.086
+ANN=1	https://alerce.online/object/ZTF21aagtbat		Yes_TNS		None		z=-99.0	IIP^^
+ANN=5	https://alerce.online/object/ZTF20abivilh		Yes_TNS		None		z=-99.0	II, II-CSM?^^
+Ref: ZTF21achfddh, tns_cls=SN IIn, spec_z=0.07
+ANN=1	https://alerce.online/object/ZTF21aatuuiz		Yes_TNS		None		z=-99.0	Ibc^^
+ANN=2	https://alerce.online/object/ZTF20achnlsd		Yes_TNS		None		z=-99.0	IIP
+ANN=3	https://alerce.online/object/ZTF20acrtkeo		Yes_TNS		None		z=-99.0	IIP/II
+ANN=4	https://alerce.online/object/ZTF21abxnrfx		Yes_TNS		None		z=-99.0	II
+ANN=6	https://alerce.online/object/ZTF20acxzlrc		Yes_TNS		None		z=-99.0	II
+ANN=8	https://alerce.online/object/ZTF21aakiufw		Yes_TNS		None		z=-99.0	II/IIP^^
+Ref: ZTF20abtjjhb, tns_cls=SN IIn, spec_z=0.064
+Ref: ZTF21aaffxdt, tns_cls=SN IIn, spec_z=0.09
+Ref: ZTF21aafmkjk, tns_cls=SN IIn, spec_z=0.09
+ANN=1	https://alerce.online/object/ZTF20acyrlyj		Yes_TNS		None		z=-99.0	IIP/II^^
+ANN=2	https://alerce.online/object/ZTF21aauaemd		Yes_TNS		None		z=-99.0	II? SLSN?->FLEET^^
+ANN=4	https://alerce.online/object/ZTF20acgrvkt		Yes_TNS		None		z=-99.0	II^^^^
+ANN=6	https://alerce.online/object/ZTF21aayfbwv		Yes_TNS		None		z=-99.0	IIn?^^^
+ANN=8	https://alerce.online/object/ZTF21aavcoxf		Yes_TNS		None		z=-99.0	II (NOTE: YSE GOT SPECTRA BUT NOT PUBLIC)
+Ref: ZTF19abstsvm, tns_cls=SN IIn, spec_z=0.039
+ANN=2	https://alerce.online/object/ZTF21aaptnwj		Yes_TNS		None		z=-99.0	IIP/II^^^^
+Ref: ZTF21aautijg, tns_cls=SN IIn, spec_z=0.106
+ANN=2	https://alerce.online/object/ZTF21aazrgtw		Yes_TNS		None		z=-99.0	SLSN?/IIn->FLEET (bright and interesting)
+ANN=4	https://alerce.online/object/ZTF21aabgjcz		Yes_TNS		None		z=-99.0	TDE candidate (Gomez+22)
+ANN=5	https://alerce.online/object/ZTF21aaxtict		Yes_TNS		None		z=-99.0	IIn/II
+ANN=6	https://alerce.online/object/ZTF21aagdrdu		Yes_TNS		None		z=-99.0	IIn/SLSN - FLEET says 2021eik is not a SLSN-I, but that's just because it suggests it's a SLSN-II (which has not been tested/optimized yet)
+ANN=7	https://alerce.online/object/ZTF20acrwmno		Yes_TNS		None		z=-99.0	II?
+Ref: ZTF18acvgjqv, tns_cls=SN IIn, spec_z=0.091
+ANN=2	https://alerce.online/object/ZTF21aaxtrsb		Yes_TNS		None		z=-99.0	SLSN?/IIn->FLEET
+ANN=5	https://alerce.online/object/ZTF20aauvhab		Yes_TNS		None		z=-99.0	TDE?->FLEET
+Ref: ZTF21abtdvpg, tns_cls=SN IIn, spec_z=0.1265
+ANN=2	https://alerce.online/object/ZTF20abivilh		Yes_TNS		None		z=-99.0	II, II-CSM?^^
+ANN=8	https://alerce.online/object/ZTF21aagtbat		Yes_TNS		None		z=-99.0	IIP^^
+Ref: ZTF21aaoqbbw, tns_cls=SN IIn, spec_z=0.050162
+ANN=1	https://alerce.online/object/ZTF21abhzsho		Yes_TNS		None		z=-99.0	SLSN/IIn?->FLEET^^^
+Ref: ZTF20aceokvr, tns_cls=SN IIn, spec_z=0.115
+ANN=5	https://alerce.online/object/ZTF21aavcoxf		Yes_TNS		None		z=-99.0	II
+ANN=7	https://alerce.online/object/ZTF20aciubak		Yes_TNS		None		z=-99.0	IIP (dropped only 0.004mag/day for 100d in ZTF-r band)
+ANN=8	https://alerce.online/object/ZTF20acxtayx		Yes_TNS		None		z=-99.0	SLSN?/IIn?->FLEET^^
+Ref: ZTF20acounxo, tns_cls=SN IIn, spec_z=0.019153
+ANN=4	https://alerce.online/object/ZTF20abeocko		Yes_TNS		None		z=-99.0	II^^
+Ref: ZTF21aaradzm, tns_cls=SN IIn, spec_z=0.03
+ANN=8	https://alerce.online/object/ZTF21aajevjg		Yes_TNS		None		z=-99.0	Ibc?Ia?
+Ref: ZTF21aahfjrr, tns_cls=SN IIn, spec_z=0.194
+ANN=4	https://alerce.online/object/ZTF21aaznbpu		Yes_TNS		None		z=-99.0	II
 
-
-
-
+# SN Ia-91T-like
+Ref: ZTF21aamucom, tns_cls=SN Ia-91T-like, spec_z=0.025
+Ref: ZTF20acpwjus, tns_cls=SN Ia-91T-like, spec_z=0.075
 
 
 
