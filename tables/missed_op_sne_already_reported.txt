@@ -273,7 +273,13 @@ Ref: ZTF21aasgcve, tns_cls=SN Ia-91T-like, spec_z=0.09
 Ref: ZTF21aaahyjj, tns_cls=SN Ia-91T-like, spec_z=0.095
 Ref: ZTF21acfccil, tns_cls=SN Ia-91T-like, spec_z=0.045
 ANN=8	https://alerce.online/object/ZTF20acjizgn		Yes_TNS		None		z=-99.0	II?
+Ref: ZTF20achrklb, tns_cls=SN Ia-91T-like, spec_z=0.07
+ANN=8	https://alerce.online/object/ZTF21aarmuxl		Yes_TNS		None		z=-99.0	Ibc?
 
+# SN Ib
+Ref: ZTF22aaagrce, tns_cls=SN Ib, spec_z=0.035
+ANN=5	https://alerce.online/object/ZTF21abiawat		Yes_TNS		None		z=-99.0	Ibc/II/Ia?
+ANN=8	https://alerce.online/object/ZTF21aaxvxbu		Yes_TNS		None		z=-99.0	Ibc
 
 
 

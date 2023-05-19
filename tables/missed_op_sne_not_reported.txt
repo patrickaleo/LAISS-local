@@ -26,7 +26,8 @@ Ref: ZTF21aaffxdt, tns_cls=SN IIn, spec_z=0.09
 ANN=7	https://alerce.online/object/ZTF20aclghmy		No_TNS		None		z=-99.0	Ia?
 
 # SN Ia-91T-like
-
+# SN Ib
+ANN=6	https://alerce.online/object/ZTF21abvjcnb		No_TNS		None		z=-99.0	Ia
 
 
 
