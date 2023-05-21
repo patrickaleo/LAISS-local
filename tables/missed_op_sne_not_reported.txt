@@ -16,7 +16,8 @@ ANN=8	https://alerce.online/object/ZTF18ablqjws		No_TNS		None		z=-99.0	II/IIn?	n
 
 # SN IIb
 Ref: ZTF21abotose, tns_cls=SN IIb, spec_z=0.0412
-ANN=2	https://alerce.online/object/ZTF19aafmytc		Yes_TNS		None		z=-99.0	2 nuclear transients, only 1 reportedRef: Ref: ZTF20acusecr, tns_cls=SN IIb, spec_z=0.030884
+ANN=2	https://alerce.online/object/ZTF19aafmytc		Yes_TNS		None		z=-99.0	2 nuclear transients, only 1 reported
+Ref: Ref: ZTF20acusecr, tns_cls=SN IIb, spec_z=0.030884
 ANN=3	https://alerce.online/object/ZTF21aamssts		No_TNS		None		z=-99.0	Ia	new IAU=abc!
 
 # SN IIn
@@ -26,8 +27,33 @@ Ref: ZTF21aaffxdt, tns_cls=SN IIn, spec_z=0.09
 ANN=7	https://alerce.online/object/ZTF20aclghmy		No_TNS		None		z=-99.0	Ia?
 
 # SN Ia-91T-like
+
 # SN Ib
+Ref: ZTF22aaagrce, tns_cls=SN Ib, spec_z=0.035
 ANN=6	https://alerce.online/object/ZTF21abvjcnb		No_TNS		None		z=-99.0	Ia
+Ref: ZTF21acqyqwu, tns_cls=SN Ib, spec_z=0.042
+ANN=5	https://alerce.online/object/ZTF18abtjrbt		No_TNS		None		z=-99.0	Ia
+ANN=6	https://alerce.online/object/ZTF21abutvjt		No_TNS		None		z=-99.0	Ia
+ANN=7	https://alerce.online/object/ZTF18acrdqvy		No_TNS		None		z=-99.0	II/IIP
+Ref: ZTF20abvquuo, tns_cls=SN Ib, spec_z=0.03
+ANN=8	https://alerce.online/object/ZTF18abmofew		No_TNS		None		z=-99.0	Ia
+
+# SN Ic
+Ref: ZTF21aayonfd, tns_cls=SN Ic, spec_z=0.112
+ANN=6	https://alerce.online/object/ZTF18abnysyy		No_TNS		None		z=-99.0	Ia
+
+# Ic-BL
+
+# TDE
+Ref: ZTF22aaaedas, tns_cls=TDE, spec_z=0.107
+ANN=5	https://alerce.online/object/ZTF20aczhbki		No_TNS		None		z=-99.0	II/IIn
+Ref: ZTF21aapvvtb, tns_cls=TDE, spec_z=0.358
+ANN=8	https://alerce.online/object/ZTF21aasdcgt		No_TNS		None		z=-99.0	TDE/SLSN cand! --> FLEET
+
+
+
+
+
 
 
 
