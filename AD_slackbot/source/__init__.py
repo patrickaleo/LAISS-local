@@ -2,4 +2,4 @@
 #from .antares import *
 #from .yse import *
 #from .bandpassdict import *
-from LAISS_RFC_AD_filter import *
+from .LAISSrfcADfilter import *

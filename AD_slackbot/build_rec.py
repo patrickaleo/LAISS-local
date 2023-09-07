@@ -2,7 +2,7 @@ import requests as req
 from auth import toku
 
 class build_rec:
-    def __init__(self, antaresID):
+    def __init__(self, antaresID, tns_name, tns_cls, anom_score):
         '''
         Builds a string and dataframe row for easy recommendation posting. Also can post to slack.
 
@@ -18,12 +18,19 @@ class build_rec:
         df : pd.DataFrame
             DataFrame row to append to the recommendation DataFrame. If None, will build a row from the object.
         '''
-        self.url = f'https://antares.noirlab.edu/loci/{antaresID}'
+        if tns_name == "---":
+            self.url = f'https://antares.noirlab.edu/loci/{antaresID}'
+        else: self.url = f'https://ziggy.ucolick.org/yse/transient_detail/{tns_name}'
+
         self.name = antaresID
+        self.tns_name = tns_name
+        self.tns_cls = tns_cls
+        self.anom_score = anom_score
+
         self.string = self.build_str()
 
     def build_str(self):
-        return f'<{self.url}|{self.name}> Found using automation'
+        return f'<{self.url}|{self.tns_name}> TNS spec. class = {self.tns_cls}, anomaly score = {int(round(self.anom_score, 1))}%'
         #return 'found using automation'
 
     def post(self,string=None,channel='D05R7RK4K8T'):
