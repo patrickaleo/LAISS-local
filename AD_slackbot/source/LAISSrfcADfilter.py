@@ -76,7 +76,7 @@ def wise_diag(antid, tns_name, tns_cls, anom_score, ra, dec):
 			i=i+1
 		
 		else:
-			print('No match in WISE for', coord[i], 'within 3 arcsec')
+			#print('No match in WISE for', coord[i], 'within 3 arcsec')
 			i=i+1		
 		
 	w1_w2 = w1-w2
@@ -104,9 +104,10 @@ def wise_diag(antid, tns_name, tns_cls, anom_score, ra, dec):
 	# print('RA', 'Dec', 'Stern', 'Jarrett')
 	i=0
 	final_cand_antid_l, final_cand_tns_name_l, final_cand_tns_cls_l, final_cand_anom_score_l = [], [], [], []
+	print("Final anomaly candidates are...")
 	while i < len(coord):
 		if (stern[i] == "no" or stern[i] == "NA") and (jarrett[i] == "no" or jarrett[i] == "NA"):
-			print(f"https://antares.noirlab.edu/loci/{antid[i]}", tns_name[i], tns_cls[i], ra[i], dec[i], stern[i], jarrett[i])
+			print(f"https://antares.noirlab.edu/loci/{antid[i]}", tns_name[i], tns_cls[i], anom_score[i], stern[i], jarrett[i])
 			final_cand_antid_l.append(antid[i]), final_cand_tns_name_l.append(tns_name[i]), final_cand_tns_cls_l.append(tns_cls[i]), final_cand_anom_score_l.append(anom_score[i])
 			i = i + 1
 		else:

@@ -33,7 +33,7 @@ class build_rec:
         return f'<{self.url}|{self.tns_name}> TNS spec. class = {self.tns_cls}, anomaly score = {int(round(self.anom_score, 1))}%'
         #return 'found using automation'
 
-    def post(self,string=None,channel='D05R7RK4K8T'):
+    def post(self,string=None,channel='C03STCB0ACA'): # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
         '''
         Posts to a slack channel. If no string is provided, will use the string attribute of the object.
 
@@ -56,7 +56,7 @@ class build_rec:
         if p1.status_code == 200:
             print('Posted to Slack')
 
-def post(string=None, channel='D05R7RK4K8T'):
+def post(string=None, channel='C03STCB0ACA'): # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
         '''
     Posts to a slack channel. If no string is provided, will use the string attribute of the object. This is a standalone function for autmation purposes.
 
