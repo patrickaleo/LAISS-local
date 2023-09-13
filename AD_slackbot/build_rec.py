@@ -18,9 +18,12 @@ class build_rec:
         df : pd.DataFrame
             DataFrame row to append to the recommendation DataFrame. If None, will build a row from the object.
         '''
-        if tns_name == "---":
-            self.url = f'https://antares.noirlab.edu/loci/{antaresID}'
-        else: self.url = f'https://ziggy.ucolick.org/yse/transient_detail/{tns_name}'
+        if tns_name == "No TNS":
+            self.ziggy_url = 'None'
+            self.antares_url = f'https://antares.noirlab.edu/loci/{antaresID}'
+        else:
+            self.ziggy_url = f'https://ziggy.ucolick.org/yse/transient_detail/{tns_name}'
+            self.antares_url = f'https://antares.noirlab.edu/loci/{antaresID}'
 
         self.name = antaresID
         self.tns_name = tns_name
@@ -30,10 +33,12 @@ class build_rec:
         self.string = self.build_str()
 
     def build_str(self):
-        return f'<{self.url}|{self.tns_name}> TNS spec. class = {self.tns_cls}, anomaly score = {int(round(self.anom_score, 1))}%'
+        if self.ziggy_url == 'None':
+            return f'{self.tns_name}/<{self.antares_url}|{self.name}> | TNS spec. class = {self.tns_cls}, anomaly score = {int(round(self.anom_score, 1))}%'
+        else: return f'<{self.ziggy_url}|{self.tns_name}>/<{self.antares_url}|{self.name}> | TNS spec. class = {self.tns_cls}, anomaly score = {int(round(self.anom_score, 1))}%'
         #return 'found using automation'
 
-    def post(self,string=None,channel='C03STCB0ACA'): # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
+    def post(self,string=None,channel=None): # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
         '''
         Posts to a slack channel. If no string is provided, will use the string attribute of the object.
 
@@ -56,7 +61,7 @@ class build_rec:
         if p1.status_code == 200:
             print('Posted to Slack')
 
-def post(string=None, channel='C03STCB0ACA'): # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
+def post(string=None, channel=None): # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
         '''
     Posts to a slack channel. If no string is provided, will use the string attribute of the object. This is a standalone function for autmation purposes.
 

@@ -15,9 +15,10 @@ import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
 
-parser = argparse.ArgumentParser(description='Run LAISS AD')
+parser = argparse.ArgumentParser(description='Run LAISS AD. Ex: python3 auto.py 2 D05R7RK4K8T')
 # Add command-line arguments for input, new data, and output file paths
 parser.add_argument('lookback_t', help='lookback_t')
+parser.add_argument('channel', help='slack channel ID')
 args = parser.parse_args()
 
 # Get current date
@@ -31,6 +32,7 @@ today_mjd = calculate_mjd(year, month, day)
 print("Today's Modified Julian Date:", today_mjd)
 
 lookback_t = float(args.lookback_t)
+channel = str(args.channel)
 print(f"Looking back to all objects tagged within MJD {today_mjd}-{today_mjd - lookback_t}:")
 
 # Get list of tagged loci
@@ -95,7 +97,7 @@ def run(post=True):
             ant = bs(antaresID=antaresID, tns_name=tns_name, tns_cls=tns_cls, anom_score=anom_score)
             ps.append(ant.string)
         ps = '\n'.join(ps)
-        pst(ps,channel='C03STCB0ACA') # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
+        pst(ps,channel=channel) # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
 
     return 0
 
