@@ -1,0 +1,63 @@
+name,type,description
+objName,str,IAU name for this object.
+objID,int,Unique object identifier.
+raMean,float,Right ascension from single epoch detections (weighted mean) in equinox J2000 at the mean epoch given by epochMean.
+decMean,float,Declination from single epoch detections (weighted mean) in equinox J2000 at the mean epoch given by epochMean.
+gmomentXX,float,Second moment M_xx for g filter stack detection.
+gmomentXY,float,Second moment M_xy for g filter stack detection.
+gmomentYY,float,Second moment M_yy for g filter stack detection.
+gmomentR1,float,First radial moment for g filter stack detection.
+gmomentRH,float,Half radial moment (r^0.5 weighting) for g filter stack detection.
+gPSFFlux,float,PSF flux from g filter stack detection.
+gApFlux,float,Aperture flux from g filter stack detection.
+gKronFlux,float,Kron (1980) flux from g filter stack detection.
+gKronRad,float,Kron (1980) radius from g filter stack detection.
+gExtNSigma,float,An extendedness measure for the g filter stack detection based on the deviation between PSF and Kron (1980) magnitudes normalized by the PSF magnitude uncertainty.
+rmomentXX,float,Second moment M_xx for r filter stack detection.
+rmomentXY,float,Second moment M_xy for r filter stack detection.
+rmomentYY,float,Second moment M_yy for r filter stack detection.
+rmomentR1,float,First radial moment for r filter stack detection.
+rmomentRH,float,Half radial moment (r^0.5 weighting) for r filter stack detection.
+rPSFFlux,float,PSF flux from r filter stack detection.
+rApFlux,float,Aperture flux from r filter stack detection.
+rKronFlux,float,Kron (1980) flux from r filter stack detection.
+rKronRad,float,Kron (1980) radius from r filter stack detection.
+rExtNSigma,float,An extendedness measure for the r filter stack detection based on the deviation between PSF and Kron (1980) magnitudes normalized by the PSF magnitude uncertainty.
+imomentXX,float,Second moment M_xx for i filter stack detection.
+imomentXY,float,Second moment M_xy for i filter stack detection.
+imomentYY,float,Second moment M_yy for i filter stack detection.
+imomentR1,float,First radial moment for i filter stack detection.
+imomentRH,float,Half radial moment (r^0.5 weighting) for i filter stack detection.
+iPSFFlux,float,PSF flux from i filter stack detection.
+iApFlux,float,Aperture flux from i filter stack detection.
+iKronFlux,float,Kron (1980) flux from i filter stack detection.
+iKronRad,float,Kron (1980) radius from i filter stack detection.
+iExtNSigma,float,An extendedness measure for the i filter stack detection based on the deviation between PSF and Kron (1980) magnitudes normalized by the PSF magnitude uncertainty.
+zmomentXX,float,Second moment M_xx for z filter stack detection.
+zmomentXY,float,Second moment M_xy for z filter stack detection.
+zmomentYY,float,Second moment M_yy for z filter stack detection.
+zmomentR1,float,First radial moment for z filter stack detection.
+zmomentRH,float,Half radial moment (r^0.5 weighting) for z filter stack detection.
+zPSFFlux,float,PSF flux from z filter stack detection.
+zApFlux,float,Aperture flux from z filter stack detection.
+zKronFlux,float,Kron (1980) flux from z filter stack detection.
+zKronRad,float,Kron (1980) radius from z filter stack detection.
+zExtNSigma,float,An extendedness measure for the z filter stack detection based on the deviation between PSF and Kron (1980) magnitudes normalized by the PSF magnitude uncertainty.
+ymomentXX,float,Second moment M_xx for y filter stack detection.
+ymomentXY,float,Second moment M_xy for y filter stack detection.
+ymomentYY,float,Second moment M_yy for y filter stack detection.
+ymomentR1,float,First radial moment for y filter stack detection.
+ymomentRH,float,Half radial moment (r^0.5 weighting) for y filter stack detection.
+yPSFFlux,float,PSF flux from y filter stack detection.
+yApFlux,float,Aperture flux from y filter stack detection.
+yKronFlux,float,Kron (1980) flux from y filter stack detection.
+yKronRad,float,Kron (1980) radius from y filter stack detection.
+yExtNSigma,float,An extendedness measure for the y filter stack detection based on the deviation between PSF and Kron (1980) magnitudes normalized by the PSF magnitude uncertainty.
+i-z,float,i-z.
+gApMag_gKronMag,float,gApMag_gKronMag.
+rApMag_rKronMag,float,rApMag_rKronMag.
+iApMag_iKronMag,float,iApMag_iKronMag.
+zApMag_zKronMag,float,zApMag_zKronMag.
+yApMag_yKronMag,float,yApMag_yKronMag.
+7DCD,float,7DCD.
+dist/DLR,float,Distance from transient to host normalized by the Directional Light Radius (DLR).
