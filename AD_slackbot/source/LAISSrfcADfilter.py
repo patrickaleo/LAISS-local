@@ -102,16 +102,25 @@ def wise_diag(antid, tns_name, tns_cls, anom_score, ra, dec):
 	
 	
 	# print('RA', 'Dec', 'Stern', 'Jarrett')
+	import time
 	i=0
 	final_cand_antid_l, final_cand_tns_name_l, final_cand_tns_cls_l, final_cand_anom_score_l = [], [], [], []
 	print("Final anomaly candidates are...")
-	while i < len(coord):
+	for i, co in enumerate(coord):
+		start_time = time.time()
 		if (stern[i] == "no" or stern[i] == "NA") and (jarrett[i] == "no" or jarrett[i] == "NA"):
 			print(f"https://antares.noirlab.edu/loci/{antid[i]}", tns_name[i], tns_cls[i], anom_score[i], stern[i], jarrett[i])
 			final_cand_antid_l.append(antid[i]), final_cand_tns_name_l.append(tns_name[i]), final_cand_tns_cls_l.append(tns_cls[i]), final_cand_anom_score_l.append(anom_score[i])
 			i = i + 1
 		else:
 			continue
+
+		end_time = time.time()
+		elapsed_time = end_time - start_time
+
+		if elapsed_time > 5:
+			print("Time exceeded 5 seconds, moving to the next object.")
+			i += 1
 
 	return final_cand_antid_l, final_cand_tns_name_l, final_cand_tns_cls_l, final_cand_anom_score_l
 	

@@ -94,10 +94,15 @@ def run(post=True):
     if post:
         ps.append(f"ZTF Anomalies (re-)tagged within MJD {today_mjd - lookback_t} to {today_mjd}:\n")
         for antaresID, tns_name, tns_cls, anom_score in zip(final_cand_antid_l, final_cand_tns_name_l, final_cand_tns_cls_l, final_cand_anom_score_l):
-            ant = bs(antaresID=antaresID, tns_name=tns_name, tns_cls=tns_cls, anom_score=anom_score)
+            try:
+                ant = bs(antaresID=antaresID, tns_name=tns_name, tns_cls=tns_cls, anom_score=anom_score)
+            except:
+                print(f"Some error while trying to post for: {antaresID} {tns_name} {tns_cls} {anom_score}. Skip!")
+                continue
             ps.append(ant.string)
         ps = '\n'.join(ps)
         pst(ps,channel=channel) # C03STCB0ACA = anomaly-detection channel; 'D05R7RK4K8T' == Bot specific channel LAISS_AD_bot for testing
+
 
     return 0
 
