@@ -53,8 +53,12 @@ def wise_diag(antid, tns_name, tns_cls, anom_score, ra, dec):
 	jarrett = np.array(['NA'] * len(ra), dtype=object)		
 			
 	i=0
-	while i < len(ra): 
-		table = Irsa.query_region(coord[i], catalog='allwise_p3as_psd', radius=0.000833333*u.deg) # 3 arcsec
+	while i < len(ra):
+		try:
+			table = Irsa.query_region(coord[i], catalog='allwise_p3as_psd', radius=0.000833333*u.deg) # 3 arcsec
+		except:
+			print(f"Irsa.query_region error for {antid[i]}. Skip and continue...")
+			i=i+1
 		if len(table) > 0:
 		
 			w1[i] = table[0]['w1mpro'] #using the closest match found in the table
