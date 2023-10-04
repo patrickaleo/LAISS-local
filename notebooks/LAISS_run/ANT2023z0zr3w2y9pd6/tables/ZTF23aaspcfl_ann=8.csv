@@ -1,10 +1,10 @@
 ZTFID,ANN_NUM,IAU_NAME,SPEC_CLS,Z
 ZTF23aaspcfl,0,2023nlj,SN Ib,0.03
 ZTF18acanabv,1,No TNS,---,-99.0
-ZTF20achvlbs,2,2020wgz,---,-99.0
-ZTF21aaahyjj,3,2021me,SN Ia-91T-like,0.095
-ZTF21abexhlq,4,2021pil,SN Ia,0.07
-ZTF21aabyrhy,5,2021pv,---,-99.0
-ZTF21aarohyu,6,2021hzo,SN Ia,0.063
-ZTF20accodxy,7,2020uog,SN Ia,0.075
-ZTF21abqueax,8,2021vaw,SN Ia,0.11
+ZTF21aaahyjj,2,2021me,SN Ia-91T-like,0.095
+ZTF20achvlbs,3,2020wgz,---,-99.0
+ZTF21abqueax,4,2021vaw,SN Ia,0.11
+ZTF21abexhlq,5,2021pil,SN Ia,0.07
+ZTF20accodxy,6,2020uog,SN Ia,0.075
+ZTF21aarohyu,7,2021hzo,SN Ia,0.063
+ZTF21accibae,8,2021yyu,SN Ia,0.066
