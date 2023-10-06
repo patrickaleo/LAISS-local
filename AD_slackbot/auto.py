@@ -18,6 +18,7 @@ warnings.filterwarnings('ignore')
 parser = argparse.ArgumentParser(description='Run LAISS AD. Ex: python3 auto.py 2 D05R7RK4K8T')
 # Add command-line arguments for input, new data, and output file paths
 parser.add_argument('lookback_t', help='lookback_t')
+parser.add_argument('anom_thresh', help='anom_thresh')
 parser.add_argument('channel', help='slack channel ID')
 args = parser.parse_args()
 
@@ -34,6 +35,9 @@ print("Today's Modified Julian Date:", today_mjd)
 lookback_t = float(args.lookback_t)
 channel = str(args.channel)
 print(f"Looking back to all objects tagged within MJD {today_mjd}-{today_mjd - lookback_t}:")
+
+anom_thresh = float(args.anom_thresh) # anomaly threshold
+print(f"Using Anomaly Threshold of: {anom_thresh}%")
 
 # Get list of tagged loci
 LAISS_RFC_AD_loci = antares_client.search.search(
@@ -68,7 +72,7 @@ for l in LAISS_RFC_AD_locus_ids:
     if l.startswith("ANT2023"):  # only take objects from this year
         locus = antares_client.search.get_by_id(l)
         if 'tns_public_objects' not in locus.catalogs:
-            if 'LAISS_RFC_anomaly_score' in locus.properties and locus.properties['LAISS_RFC_anomaly_score'] >= 50:
+            if 'LAISS_RFC_anomaly_score' in locus.properties and locus.properties['LAISS_RFC_anomaly_score'] >= anom_thresh:
                 #print(f"https://antares.noirlab.edu/loci/{l}", "No TNS", "---", locus.properties['LAISS_RFC_anomaly_score'])
                 g50_antid_l.append(l), g50_tns_name_l.append("No TNS"), g50_tns_cls_l.append("---"), g50_anom_score_l.append(locus.properties['LAISS_RFC_anomaly_score'])
                 g50_ra_l.append(locus.ra), g50_dec_l.append(locus.dec)
@@ -77,7 +81,7 @@ for l in LAISS_RFC_AD_locus_ids:
             tns = locus.catalog_objects['tns_public_objects'][0]
             tns_name, tns_cls = tns['name'], tns['type']
             if tns_cls == '': tns_cls = "---"
-            if 'LAISS_RFC_anomaly_score' in locus.properties and locus.properties['LAISS_RFC_anomaly_score'] >= 50:
+            if 'LAISS_RFC_anomaly_score' in locus.properties and locus.properties['LAISS_RFC_anomaly_score'] >= anom_thresh:
                 #print(f"https://antares.noirlab.edu/loci/{l}", tns_name, tns_cls, locus.properties['LAISS_RFC_anomaly_score'])
                 g50_antid_l.append(l), g50_tns_name_l.append(tns_name), g50_tns_cls_l.append(tns_cls), g50_anom_score_l.append(locus.properties['LAISS_RFC_anomaly_score'])
                 g50_ra_l.append(locus.ra), g50_dec_l.append(locus.dec)
