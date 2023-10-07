@@ -78,7 +78,12 @@ for l in LAISS_RFC_AD_locus_ids:
                 g50_ra_l.append(locus.ra), g50_dec_l.append(locus.dec)
 
         else:
-            tns = locus.catalog_objects['tns_public_objects'][0]
+            try:
+                tns = locus.catalog_objects['tns_public_objects'][0]
+            except:
+                print("Bah")
+                print(locus.catalog_objects['tns_public_objects'])
+                print(f"{l} likely is on TNS but is outside of 1arcsec matching for catalogs...Check! Anom score: {locus.properties['LAISS_RFC_anomaly_score']}")
             tns_name, tns_cls = tns['name'], tns['type']
             if tns_cls == '': tns_cls = "---"
             if 'LAISS_RFC_anomaly_score' in locus.properties and locus.properties['LAISS_RFC_anomaly_score'] >= anom_thresh:
