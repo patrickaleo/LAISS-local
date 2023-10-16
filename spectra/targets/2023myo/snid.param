@@ -1,5 +1,5 @@
 # SNID parameter file -- EDIT WITH CAUTION!
-wmin          4500.00
+wmin          4300.00
 wmax            -9.99
 wmask      wmaskfile
 fwmed            0.00
