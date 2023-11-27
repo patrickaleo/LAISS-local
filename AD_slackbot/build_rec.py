@@ -8,15 +8,11 @@ class build_rec:
 
         Parameters
         ----------
-        obj : prep.source object
-            Object to build recommendation for. Needs to have a name, ra, dec, url, and salt_params attributes.
+        TODO: update!
         
         Parameters
         ----------
-        string : str
-            String to post to slack. If None, will build a string from the object.
-        df : pd.DataFrame
-            DataFrame row to append to the recommendation DataFrame. If None, will build a row from the object.
+        TODO: update!
         '''
         if tns_name == "No TNS":
             self.ziggy_url = 'None'

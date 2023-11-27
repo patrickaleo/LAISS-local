@@ -73,7 +73,6 @@ for l in LAISS_RFC_AD_locus_ids:
         locus = antares_client.search.get_by_id(l)
         if 'tns_public_objects' not in locus.catalogs:
             if 'LAISS_RFC_anomaly_score' in locus.properties and locus.properties['LAISS_RFC_anomaly_score'] >= anom_thresh:
-                #print(f"https://antares.noirlab.edu/loci/{l}", "No TNS", "---", locus.properties['LAISS_RFC_anomaly_score'])
                 g50_antid_l.append(l), g50_tns_name_l.append("No TNS"), g50_tns_cls_l.append("---"), g50_anom_score_l.append(locus.properties['LAISS_RFC_anomaly_score'])
                 g50_ra_l.append(locus.ra), g50_dec_l.append(locus.dec)
 
@@ -81,8 +80,6 @@ for l in LAISS_RFC_AD_locus_ids:
             try:
                 tns = locus.catalog_objects['tns_public_objects'][0]
             except:
-                print("Bah")
-                print(locus.catalog_objects['tns_public_objects'])
                 print(f"{l} likely is on TNS but is outside of 1arcsec matching for catalogs...Check! Anom score: {locus.properties['LAISS_RFC_anomaly_score']}")
             tns_name, tns_cls = tns['name'], tns['type']
             if tns_cls == '': tns_cls = "---"
