@@ -2045,7 +2045,7 @@ def LAISS(l_or_ztfid_ref, lc_and_host_features, n=8, use_lc_for_ann_only_bool=Fa
 LAISS(l_or_ztfid_ref=args.l_or_ztfid_ref,
       lc_and_host_features=lc_and_host_features,
       n=args.num_ann,
-      use_lc_for_ann_only_bool=args.use_lc_for_ann_only_bool, # currently doesn't work with YSE_snana_format or ANT IDs
+      use_lc_for_ann_only_bool=args.use_lc_for_ann_only_bool, # currently doesn't work with or ANT IDs
       use_ysepz_phot_snana_file=args.use_ysepz_phot_snana_file,
       show_lightcurves_grid=args.show_lightcurves_grid,
       show_hosts_grid=args.show_hosts_grid,
