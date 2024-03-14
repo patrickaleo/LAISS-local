@@ -64,7 +64,14 @@ LAISS_RFC_AD_loci = antares_client.search.search(
         }
     }
 )
-LAISS_RFC_AD_locus_ids = [l.locus_id for l in LAISS_RFC_AD_loci]
+
+def catch(func, handle=lambda e : e, *args, **kwargs):
+    try:
+        return func(*args, **kwargs)
+    except Exception as e:
+        return handle(e)
+
+LAISS_RFC_AD_locus_ids = [catch(lambda : l.locus_id) for l in LAISS_RFC_AD_loci] # to catch requests.exceptions.JSONDecodeError: [Errno Expecting ',' delimiter]
 print(f"Considering {len(LAISS_RFC_AD_locus_ids)} candidates...")
 
 g50_antid_l, g50_tns_name_l, g50_tns_cls_l, g50_anom_score_l, g50_ra_l, g50_dec_l = [], [], [], [], [], []
