@@ -65,7 +65,8 @@ LAISS_RFC_AD_loci = antares_client.search.search(
     }
 )
 
-def catch(func, handle=lambda e : e, *args, **kwargs):
+# https://stackoverflow.com/questions/1528237/how-to-handle-exceptions-in-a-list-comprehensions
+def catch(func, *args, handle=lambda e : e, **kwargs):
     try:
         return func(*args, **kwargs)
     except Exception as e:
