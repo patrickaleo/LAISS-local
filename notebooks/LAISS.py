@@ -747,8 +747,8 @@ def plot_RFC_prob_vs_lc_ztfid(clf, anom_ztfid, anom_spec_cls, anom_spec_z, anom_
         print("MJD crossed thresh:", mjd_cross_thresh)
 
     print(f'https://alerce.online/object/{anom_ztfid}')
-    ax2.plot(lc_and_hosts_df.mjd_cutoff, pred_prob_anom[:, 0], label=r'$p(Normal)$')
-    ax2.plot(lc_and_hosts_df.mjd_cutoff, pred_prob_anom[:, 1], label=r'$p(Anomaly)$')
+    ax2.plot(lc_and_hosts_df.mjd_cutoff, pred_prob_anom[:, 0], drawstyle='steps', label=r'$p(Normal)$')
+    ax2.plot(lc_and_hosts_df.mjd_cutoff, pred_prob_anom[:, 1], drawstyle='steps', label=r'$p(Anomaly)$')
 
     if anom_spec_z is None:
         anom_spec_z = "None"
